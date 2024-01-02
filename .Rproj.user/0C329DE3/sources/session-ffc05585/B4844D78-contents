@@ -1,0 +1,82 @@
+--- 
+lang: pt-BR
+title: |
+  <center></center>
+date: |
+  <center>![](images/cover_1.jpg)</center>
+
+summary_depth: 3
+summary_float:
+   collapsed: false
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: 
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: indicadoressociaisnor/livro
+---
+
+# Capa {.unnumbered}
+
+# Informações editoriais {.unnumbered}
+
+<div style="font-style:normal">
+
+<left> `r format(Sys.time(), "**Publicação** <br> 01 de janeiro de 2024")`\
+`r format(Sys.time(), "<p>**Última atualização** <br> %d de %B de %Y")`
+
+Permitida a reprodução total ou parcial com a devida citação de fonte.
+
+**Comunicação com o autor**\
+Caio Gonçalves - [ccsgonc\@gmail.com](mailto:ccsgonc@gmail.com){.email} <br> 
+
+<!-- **Revisão**\ -->
+
+<!-- **Capa**\ -->
+
+[**Ficha catalográfica**]{style="font-size:22px"} </left>
+
+<!-- ![](Figuras/Ficha_Catal.jpg) -->
+
+</center>
+
+# Bem-vindo {.unnumbered}
+
+<div style="text-align: justify">
+
+Este é um livro escrito para apoiar a aprendizagem de **Estatística pública**. Nosso objetivo principal é orientar um leitor no caminho para aprender sobre dados, os principais indicadores, fontes de dados na dimensão social. A escolha dos temas incluídos no livro foi guiada pelas principais áreas sociais.
+
+Nossa abordagem não busca ser exaustiva e, por esse motivo, sempre serão abordados os principais indicadores e as fontes mais relevantes. Em contraste, o livro enfatiza a apresentação de exemplos e de ferramentas computacionais com uso de comandos ou recursos básicos do R.
+
+O livro está organizado em treze capítulos, nominados a seguir:
+
+1)  Introdução
+2)  História das estatísticas
+3)  Divisão territorial
+4)  Classificações e cadastros
+5)  Estatísticas demográficas
+6)  Estatísticas de mercado de trabalho
+7)  Estatísticas de desigualdade e pobreza
+8)  Estatísticas de educação
+9)  Estatísticas de saúde
+10)  Estatísticas de segurança pública
+11)  Estatísticas de assistência social
+12)  Estatísticas de saneamento e habitação
+13)  Estatísticas de meio ambiente
+14)  Estatísticas de desenvolvimento sustentável
+15)  Estatísticas de turismo, esporte, cultura e lazer
+16)  Estatísticas de tecnologia e inovação
+17)  Estatísticas de gênero
+
+
+
+<!-- Cada um dos capítulos é autocontido e vários deles podem ser omitidos num primeiro curso. Com exceção do Capítulo \@ref(calib), o material do livro pode ser coberto num curso com cerca de 45 horas de duração, como ministrado várias vezes na pós-graduação da ENCE. Caso necessário, algum(ns) dos Capítulos \@ref(proporc), \@ref(razao) ou \@ref(domin) pode(m) ser suprimidos ou separados para estudo individual. Os Capítulos \@ref(AS) e \@ref(binom) podem ser omitidos sem prejuízo da sequência. O conteúdo central do livro é formado por todos os capítulos não citados neste parágrafo. Tal conteúdo formaria, a nosso ver, o mínimo para cobertura num primeiro curso, no nível de graduação, sobre **Amostragem**. -->
+
+<!-- Nossa opção ao escolher essa forma de publicação (livro em formato de hipertexto, hospedado na internet) se deve a três fatores principais: primeiro, não pretendemos comercializar o livro e, sim, torná-lo de acesso livre e aberto, como é a filosofia do software que usamos para sua elaboração e produção (R + RStudio + R Markdown + Github); segundo, essa forma de publicação permitirá atualizações mais rápidas e frequentes do conteúdo, o que favorece a correção de erros, revisões do texto, inclusão de exemplos ou tópicos novos etc.; terceiro, podemos usar esse caminho disponibilizar os [dados](arquivos-de-dados-usados-no-livro.html) que usamos para exemplos e exercícios. Esperamos que essa escolha não afaste os leitores que ainda gostam de livros em papel, como nós... -->
+
+<!-- O leitor de qualquer livro precisa reconhecer que não é possível começar do zero: é preciso contar com conhecimento prévio de algumas ideias e conceitos básicos essenciais à compreensão do material tratado. Nossa abordagem pressupõe que o leitor está familiarizado com um curso básico de introdução à probabilidade e à inferência estatística, no nível tratado, por exemplo, em @Magalhaes2004 e @Magalhaes2006. -->
